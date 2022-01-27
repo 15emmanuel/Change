@@ -15,6 +15,7 @@ var body = document.querySelector("body");
 
 button.addEventListener("click", ()=>{
    myHeading.style.color = myTextinput.value; 
+    document.querySelector("h1").innerHTML="Header is" +" "+ myTextinput.value;
 })
 
 button2.addEventListener("click", ()=>{
